@@ -35,7 +35,7 @@ address (10.0.2.15), allowing it to access the internet through the host system.
 **Memory Usage**
 
 <img width="669" height="81" alt="freeHCommand" src="https://github.com/user-attachments/assets/7ebe798c-e757-4e32-985d-a789fe91dbef" />
-&nbsp;
+<br><br>
 
 **Disk Usage**
 
