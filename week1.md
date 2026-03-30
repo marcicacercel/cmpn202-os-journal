@@ -4,6 +4,8 @@
 The system consists of my Windows laptop acting as the host machine and a virtual machine running Ubuntu Server 24.04 LTS inside Oracle VirtualBox.
 I created a virtual machine named OSserver, allocating 4GB RAM and 2 CPU cores, which is sufficient for a lightweight server environment. The server runs in a headless (CLI-only) mode, meaning there is no graphical interface and all interaction is done through the terminal. This setup reflects a real-world server environment, where systems are typically accessed remotely and managed via command-line tools rather than a desktop interface.
 <img width="1600" height="1154" alt="Screenshot 2026-03-29 213127" src="https://github.com/user-attachments/assets/492193a5-c4f6-4a96-a7aa-07dfcd34e079" />
+![ArchD](https://github.com/user-attachments/assets/ee22cd16-1b47-49b6-b9c5-e2702bb96e43)
+
 ## 2. Distribution Selection
 I selected Ubuntu Server 24.04 LTS because it provides long-term support (5 years), making it stable and suitable for server deployments. Compared to Debian, Ubuntu offers easier initial configuration and better documentation, which helped during setup. Compared to Rocky Linux / CentOS, Ubuntu has a more beginner-friendly package management system (apt) and a larger community, making troubleshooting easier. This makes Ubuntu a practical choice for both learning and real-world system administration tasks.
 ## 3. Workstation Configuration
