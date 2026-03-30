@@ -25,8 +25,7 @@ address (10.0.2.15), allowing it to access the internet through the host system.
 **OS Version**
 
 <img width="317" height="113" alt="lsbCommand" src="https://github.com/user-attachments/assets/1016ce6c-7a9f-4419-806c-9af3cc9d6ca5" />
-&nbsp;
-&nbsp;
+<br><br>
 
 **Network Information**
 
