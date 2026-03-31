@@ -7,6 +7,7 @@ I created a virtual machine named OSserver, allocating 4GB RAM and 2 CPU cores, 
 <img width="1600" height="1154" alt="Screenshot 2026-03-29 213127" src="https://github.com/user-attachments/assets/492193a5-c4f6-4a96-a7aa-07dfcd34e079" />
 <br><br>
 The following figure shows the system architecture which I used in this phase. The Windows host machine acts as the workstation, Oracle VirtualBox provides the virtualization layer, and Ubuntu Server 24.04 LTS runs as a headless server VM. The server uses NAT networking, which automatically assigned the IP address 10.0.2.15 and allowed internet access for updates and package installation.
+<br><br>
 
 ![ArchD](https://github.com/user-attachments/assets/ee22cd16-1b47-49b6-b9c5-e2702bb96e43)
 
@@ -29,8 +30,10 @@ This confirms that:
 This setup allows the server to install updates and communicate externally without additional configuration.
 <img width="827" height="257" alt="ipAcommandOnly" src="https://github.com/user-attachments/assets/b0f737c3-7f9c-4f4b-9c42-b055cdafaee5" />
 &nbsp;
+
 ## 5. System Information (CLI Evidence)
 **System Kernel**
+
 This screenshot shows the output of the uname -a command.
 It confirms:
 - The system is running Linux kernel 6.8.0-106-generic
@@ -42,6 +45,7 @@ This verifies that the system is correctly installed and running a modern Linux 
 &nbsp;
 
 **OS Version**
+
 This output is from the lsb_release -a command.
 It confirms the following:
 - Distribution: Ubuntu
@@ -53,6 +57,7 @@ This proves that the correct server version of Ubuntu was installed and that it 
 <br><br>
 
 **Network Information**
+
 This screenshot shows the result of the ip a command.
 Key observations:
 - Interface enp0s3 is active (UP)
@@ -63,6 +68,7 @@ This confirms that networking is properly configured and the server can communic
 <br><br>
 
 **Memory Usage**
+
 This output comes from the free -h command.
 It shows:
 - Total RAM: 3.8GB
@@ -71,9 +77,11 @@ It shows:
 This indicates that the system is running efficiently with low memory usage, which is expected for a minimal server installation without a graphical interface.
 
 <img width="669" height="81" alt="freeHCommand" src="https://github.com/user-attachments/assets/7ebe798c-e757-4e32-985d-a789fe91dbef" />
+
 <br><br>
 
 **Disk Usage**
+
 This screenshot shows the output of the df -h command.
 It confirms:
 - Root partition size: 12GB
