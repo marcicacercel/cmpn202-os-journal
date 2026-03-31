@@ -1,4 +1,4 @@
-# Phase 1 (Week 1) - System Planning and Setup
+# Phase 1 (Assesment Week 1) - System Planning and Setup
 
 ## 1. System Architecture
 The system consists of my Windows laptop acting as the host machine and a virtual machine running Ubuntu Server 24.04 LTS inside Oracle VirtualBox.
